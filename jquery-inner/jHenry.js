@@ -1,14 +1,14 @@
 (function(window){
 
-   jQuery = function(selector){
+   jHenry = function(selector){
 
-      return new jQuery.fn.init(selector);
+      return new jHenry.fn.init(selector);
    }
 
 
-   jQuery.fn=jQuery.prototype={
+   jHenry.fn=jHenry.prototype={
 
-      constructor :jQuery,
+      constructor :jHenry,
       version: 2.3,
       length :0,
       init: function () {
@@ -19,11 +19,12 @@
       each:function(){}
 
 
+
    };
 
-   jQuery.fn.init.prototype = jQuery.fn;
+   jHenry.fn.init.prototype = jHenry.fn;
 
 
-
+window.$ =window.jHenry = jHenry;
 
 })(window);
