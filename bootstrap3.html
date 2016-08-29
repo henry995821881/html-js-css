@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bootstrap/js/jquery-1.9.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+
+    <span class="glyphicon glyphicon-align-justify">
+    </span>
+    <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-ok"></span>OK
+    </button>
+
+    <div class="alert alert-danger">
+        <span class="glyphicon glyphicon-exclamation-sign"></span>
+        <span class="sr-only">Error:</span>
+        Enter a valid email address
+    </div>
+    <br>
+    <script language="javascript">
+        function show1(name) {
+
+            alert(name);
+        }
+    </script>
+    <div class="btn-group">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            drop
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="javascript:show1('action');">action</a></li>
+            <li><a href="javascript:show1('mapping');">mapping</a></li>
+            <li class="divider"></li>
+            <li><a href="javascript:show1('spring');">spring</a></li>
+            <li class="dropdown-header"> dropdown header</li>
+
+            <li><a href="javascript:show1('mybatis');">mybatis</a></li>
+        </ul>
+    </div>
+
+    <br>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">spring</button>
+        <button type="button" class="btn btn-default">java</button>
+        <button type="button" class="btn btn-default">linux</button>
+        <button type="button" class="btn btn-default">phyon</button>
+    </div>
+
+    <br>
+
+    <div class="btn-toolbar">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">java</button>
+            <button type="button" class="btn btn-default">linux</button>
+            <button type="button" class="btn btn-default">phyon</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">window</button>
+            <button type="button" class="btn btn-default">C++</button>
+            <button type="button" class="btn btn-default">bootstrap</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">js</button>
+            <button type="button" class="btn btn-default">jquery</button>
+            <button type="button" class="btn btn-default">prototype</button>
+        </div>
+
+    </div>
+
+    <div class="btn-toolbar">
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-default">java</button>
+            <button type="button" class="btn btn-default">linux</button>
+            <button type="button" class="btn btn-default">phyon</button>
+        </div>
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">window</button>
+            <button type="button" class="btn btn-default">C++</button>
+            <button type="button" class="btn btn-default">bootstrap</button>
+        </div>
+        <div class="btn-group btn-group-xs">
+            <button type="button" class="btn btn-default">js</button>
+            <button type="button" class="btn btn-default">jquery</button>
+            <button type="button" class="btn btn-default">prototype</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                dropdown<span class="glyphicon glyphicon-exclamation-sign"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">link1</a></li>
+                <li><a href="#">link2</a></li>
+                <li><a href="#">link3</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <div class="btn-group-vertical">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                dropdown<span class="glyphicon glyphicon-exclamation-sign"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">link1</a></li>
+                <li><a href="#">link2</a></li>
+                <li><a href="#">link3</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                dropdown<span class="glyphicon glyphicon-exclamation-sign"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">link1</a></li>
+                <li><a href="#">link2</a></li>
+                <li><a href="#">link3</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <div class="btn-group btn-group-justified">
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">1</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">1</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">1</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="btn-group">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button" data-toggle="dropdown">
+            drop
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="javascript:show1('action');">action</a></li>
+            <li><a href="javascript:show1('mapping');">mapping</a></li>
+            <li class="divider"></li>
+            <li><a href="javascript:show1('spring');">spring</a></li>
+            <li class="dropdown-header"> dropdown header</li>
+
+            <li><a href="javascript:show1('mybatis');">mybatis</a></li>
+        </ul>
+    </div>
+    <div class="btn-group ">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button" data-toggle="dropdown">
+            drop
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="javascript:show1('action');">action</a></li>
+            <li><a href="javascript:show1('mapping');">mapping</a></li>
+            <li class="divider"></li>
+            <li><a href="javascript:show1('spring');">spring</a></li>
+            <li class="dropdown-header"> dropdown header</li>
+
+            <li><a href="javascript:show1('mybatis');">mybatis</a></li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control">
+    </div>
+    <div class="input-group ">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control">
+        <span class="input-group-addon">.00</span>
+    </div>
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control">
+        <span class="input-group-addon">.00</span>
+    </div>
+    <div class="input-group input-group-sm">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control">
+        <span class="input-group-addon">.00</span>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+
+                <span class="input-group-addon">
+                    <input type="checkbox">
+                </span>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <input type="radio">
+                </span>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">GO</button>
+                </span>
+                <input type="text" class="form-control" placeholder="search for ....">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="input-group">
+
+                <input type="text" class="form-control" placeholder="search for ....">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">GO</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Action <span class="caret"></span>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </div>
+                <input type="text" class="form-control">
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">home</a></li>
+        <li><a href="#">profile</a></li>
+        <li><a href="#">message</a></li>
+    </ul>
+    <br>
+    <ul class="nav nav-tabs nav-tabs-justified">
+        <li class="active"><a href="#">home</a></li>
+        <li><a href="#">profile</a></li>
+        <li><a href="#">message</a></li>
+        <li class="btn-group">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">dropdwon<span
+                    class="caret"></span> </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+</body>
+</html>
